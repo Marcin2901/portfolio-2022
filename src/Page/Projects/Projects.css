@@ -1,0 +1,30 @@
+.projects {
+    background-color: #252525;
+    padding: 5rem 0;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.projects__container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project--card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: .5rem;
+    text-align: center;
+    z-index: 1000;
+}
+.qaz {
+    height: 500px;
+    border: 10px solid green;
+}
+.marcin {
+    border: 10px solid green;
+}

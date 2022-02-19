@@ -17,22 +17,22 @@
     height: 100%;
     background-color: rgb(36, 44, 68);
     z-index: 4;
-    opacity: .5;
+    opacity: .4;
 }
 
 .hero--title {
     font-family: 'SF Hollywood Hills', sans-serif;
     position: absolute;
-    right: 0%;
-    top: 30%;
-    font-size: 4rem;
+    right: -7%;
+    top: 28%;
+    font-size: 6rem;
     transform: rotateY(55deg) rotateZ(1deg) rotateX(-10deg);
     letter-spacing: 10px;
     text-transform: uppercase;
     text-shadow: 5px 5px 5px rgb(43, 37, 37);
     opacity: .9;
     transition: opacity .5s ease-in-out;
-    width: 600px;
+    width: 800px;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #ffffff33);
     line-height: .8;
     outline: none;
@@ -181,8 +181,11 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .hero--title {
+        right: -12%;
+    }
     .hero--sun {
-        left: -20%;
+        left: -15%;
     }
 }
 
@@ -192,11 +195,16 @@
     }
 
     .hero--title {
-        font-size: 3.5rem;
+        right: -20%;
+        font-size: 5rem;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .hero--title {
+        right: -30%;
+        font-size: 4.5rem;
+    }
     .hero--text {
         font-size: 1.8rem;
     }
@@ -204,6 +212,6 @@
 
 @media screen and (max-width: 500px) {
     .hero--title {
-        right: -5%;
+        right: -45%;
     }
 }
