@@ -17,7 +17,7 @@
     height: 100%;
     background-color: rgb(36, 44, 68);
     z-index: 4;
-    opacity: .4;
+    opacity: .2;
 }
 
 .hero--title {
@@ -45,7 +45,7 @@
     }
     to {
         color: #fff;
-        text-shadow: 0 0 10px #03bcf422, 
+        text-shadow: 0 0 10px #44bde222, 
         0 0 20px #03bcf422,
         0 0 40px #03bcf422,
         0 0 60px #03bcf422,

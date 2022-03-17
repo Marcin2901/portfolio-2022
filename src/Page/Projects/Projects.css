@@ -7,9 +7,15 @@
 
 .projects__container {
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.projects h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
 }
 
 .project--card {
@@ -17,14 +23,54 @@
     height: 400px;
     background-color: #fff;
     border-radius: .5rem;
-    padding: .5rem;
+    /* padding: .5rem; */
     text-align: center;
     z-index: 1000;
+    /* transform: rotateX(-55deg) !important;
+    transform-origin: bottom;
+    transition: all .5s ease-in-out;
+    position: relative; */
+   
 }
+
+/* .project--card::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-15deg);
+}
+
+.project--card::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.project--card:hover {
+    transform: none !important;
+} */
+
 .qaz {
     height: 500px;
     border: 10px solid green;
 }
 .marcin {
     border: 10px solid green;
+}
+
+.project--img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: .5rem .5rem 0 0;
 }
