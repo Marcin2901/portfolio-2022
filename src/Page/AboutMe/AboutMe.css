@@ -1,9 +1,10 @@
 .about-me {
     background-color: #252525;
+    background-image: linear-gradient(180deg, #252525, #363333, #264758);
     padding: 5rem 0;
     animation: a .5s ease;
     overflow: hidden;
-    height: 80vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
 }
@@ -23,6 +24,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .about-me--img {
@@ -30,22 +32,35 @@
     height: 300px;  
     object-fit: cover;
     border: 2px solid #fff;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: .5rem;
     transition: all .5s ease-in-out;
+    box-shadow: 0px 0px 20px #fff;
 }
 
 .about-me__content {
     color: #fff;
-    width: 650px;
+    max-width: 650px;
     transition: all .5s ease-in-out;
 }
 
 .about-me__content h2 {
-    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .about-me__content p {
-    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     line-height: 1.7;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 1034px) {
+    .about-me__content p {
+        text-align: center;
+        font-size: 1rem;
+    }
 }

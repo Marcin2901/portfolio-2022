@@ -18,7 +18,7 @@ function Hero(props) {
                                                 zIndex: offsetY > 250 ? 1  : 5, opacity: offsetY > 250 ? .6 : .8,
                                                 animation: offsetY > 250 && "none"}}
             >
-                M<span className="letter">a</span>rcin J<span className="letter">a</span>worski
+                M<span className="letter-up">a</span>r<span className="letter-up">ci</span>n J<span className="letter-up">a</span>w<span className="letter-down">o</span>rski
             </h1>
             <p className="hero--text" style={{transform: offsetY > 150 ? "translateX(500px)" : "translateX(0)" }}><span className="green">Junior</span> <span className="greena">F</span>rontend <span className="gareen">D</span>eveloper</p>
 

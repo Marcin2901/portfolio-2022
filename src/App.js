@@ -6,6 +6,8 @@ import Hero from "./Page/Hero/Hero";
 import AboutMe from "./Page/AboutMe/AboutMe";
 import Projects from "./Page/Projects/Projects";
 import Skills from "./Page/Skills/Skills";
+import Contact from "./Page/Contact/Contact";
+import Footer from "./Page/Footer/Footer"
 // import  {Animator, MoveIn, ScrollContainer, ScrollPage, batch, Zoom, Sticky, StickyIn, FadeIn, ZoomIn, MoveOut, Fade} from "react-scroll-motion";
 
 function App() {
@@ -33,17 +35,8 @@ function App() {
         <Projects/>
         
         <Skills />
-        {/* <Navbar />
-        <Hero />
-        <Skills />
-        <Projects />
-        <AboutMe />
-        <Footer /> */}
-        <h1>Tutaj spróbujemy jeszcze dodać sekcje contact z możliwością wysłąnia emaila ale zobaczymy
-            czy to wgl możliwe
-        </h1>
-        <h1>Na koniec dajemy footer - nie dużego</h1>
-        <h1>I zastanów się czy dodać sekcje z menu nawigacji po stronie czy zrobić hamburgera czy to i to???</h1>
+        <Contact />
+        <Footer />
     </div>
   );
 }
