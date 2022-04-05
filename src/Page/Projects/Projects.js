@@ -22,7 +22,7 @@ function Projects() {
                         <h4>Facebook Clone</h4>
                         <p>Projekt stworzony za pomocą biblioteki React, z możliwością
                         tworzenia nowego konta, wysyłania wiadomości, wstawiania postów
-                        i komentarzy
+                        i komentarzy + aplikacja pogodowa
                         </p>
                         <div>
                             <a className="project--btn" href="https://github.com/Marcin2901/facebook-clone" target={"_blank"} rel="noreferrer">Github</a>
@@ -36,7 +36,7 @@ function Projects() {
                     <div className="project--content">
                         <h4>Mini Casino</h4>
                         <p>Projekt stworzony za pomocą biblioteki React, z możliwością 
-                           granie w Poker, Poker 5 Cards, BlackJack i War
+                           granie w Poker, Poker 5 Cards, BlackJack i War przeciwko krupierowi
                         </p>
                         <div>
                             <a className="project--btn" href="https://github.com/Marcin2901/mini-casino" target={"_blank"} rel="noreferrer">Github</a>
