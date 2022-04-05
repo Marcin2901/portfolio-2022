@@ -25,8 +25,8 @@ function Projects() {
                         i komentarzy
                         </p>
                         <div>
-                            <a className="project--btn" href="https://github.com/Marcin2901/facebook-clone" target={"_blank"}>Github</a>
-                            <a className="project--btn" href="https://adoring-darwin-82ad13.netlify.app/" target={"_blank"}>Zobacz project</a>
+                            <a className="project--btn" href="https://github.com/Marcin2901/facebook-clone" target={"_blank"} rel="noreferrer">Github</a>
+                            <a className="project--btn" href="https://adoring-darwin-82ad13.netlify.app/" target={"_blank"} rel="noreferrer">Zobacz project</a>
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ function Projects() {
                            granie w Poker, Poker 5 Cards, BlackJack i War
                         </p>
                         <div>
-                            <a className="project--btn" href="https://github.com/Marcin2901/mini-casino" target={"_blank"}>Github</a>
-                            <a className="project--btn " href="https://loving-lewin-7dac0f.netlify.app/" target={"_blank"}>Zobacz project</a>
+                            <a className="project--btn" href="https://github.com/Marcin2901/mini-casino" target={"_blank"} rel="noreferrer">Github</a>
+                            <a className="project--btn " href="https://loving-lewin-7dac0f.netlify.app/" target={"_blank"} rel="noreferrer">Zobacz project</a>
                         </div>
                     </div>
                 </div> 
