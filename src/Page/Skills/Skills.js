@@ -61,7 +61,7 @@ function Skills() {
                     </div>
                 </div>
                 <div  className="skill">
-                    <img className="postman--img" src={postmanImg}/>
+                    <img className="postman--img" src={postmanImg} alt="example"/>
                 </div>
 
               

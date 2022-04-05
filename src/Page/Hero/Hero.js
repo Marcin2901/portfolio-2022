@@ -3,7 +3,6 @@ import "./Hero.css";
 import background from "../../images/hero-background.png";
 import bg1 from "../../images/hero-bg1.png";
 import bg2 from "../../images/hero-bg2.png";
-import birds from "../../images/hero-birds.png";
 import sun from "../../images/hero-sun.png";
 import {Parallax} from "react-parallax"
 
@@ -24,10 +23,9 @@ function Hero(props) {
 
            
             <Parallax className="image" bgImage={background} strength={500} >
-                 <img src={sun} className="hero--sun" style={{transform: `translateY(${offsetY * .8}px)`}}/>
-                 <img src={birds} className="hero--birds" style={{transform: `translate(${offsetY * 2}px, ${offsetY * .1}px)`}}/>
-                 <img src={bg1} className="hero--bg1" style={{transform: `translateY(${offsetY * .55}px)`}}/>
-                 <img src={bg2} className="hero--bg2" />
+                 <img src={sun} className="hero--sun" style={{transform: `translateY(${offsetY * .8}px)`}} alt="example"/>
+                 <img src={bg1} className="hero--bg1" style={{transform: `translateY(${offsetY * .55}px)`}} alt="example"/>
+                 <img src={bg2} className="hero--bg2" alt="example"/>
 
             </Parallax>
             <div className="sp"></div>

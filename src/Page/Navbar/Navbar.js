@@ -1,13 +1,18 @@
-import React from "react"
+import React from "react";
+import "./Navbar.css";
+import myImage from "../../images/aboutMe-me.jpg";
 
 function Navbar() {
     return (
         <nav>
-            <h2>My_Portfolio</h2>
+            <div className="left">
+            <img src={myImage} alt="example"/>
+            <h2>{`Marcin Jaworski => portfolio`}</h2>
+            </div>
             <ul>
-                <li>About me</li>
-                <li>My skills</li>
-                <li>Projects</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     )

@@ -21,11 +21,8 @@
 }
 
 .hero--title {
-    /* font-family: 'SF Hollywood Hills', sans-serif; */
-
     position: absolute;
     right: -9%;
-    /* top: 28%; */
     bottom: 50%;
     font-size: 5.7rem;
     transform: rotateY(55deg) rotateZ(1deg) rotateX(-10deg);
@@ -125,66 +122,6 @@
     z-index: 3;
 }
 
-
-.hero--birds {
-    animation: fly 20s infinite linear;
-}
-
-@keyframes fly {
-    0% {
-        transform: translate(0);
-        z-index: 6;
-    }
-    10%{
-        transform: translate(150px);
-        z-index: 6;
-    }
-
-    20% {
-        transform: translate(300px);
-        z-index: 6;
-    }
-    30%{
-        transform: translate(450px, 50px) scale(.95);
-        z-index: 6;
-    }
-    40% {
-        transform: translate(600px, 75px) scale(.9);
-        z-index: 6;
-    }
-    50% {
-        transform: translate(800px, 100px) scale(.8);
-        z-index: 6;
-    }
-    51% {
-        transform: translate(800px, 100px) scale(.8) rotateZ(180deg);
-        z-index: 3;
-    }
-    60%{
-        transform: translate(500px, 75px) scale(.8) rotateZ(180deg);
-        z-index: 3;
-    }
-    70%{
-        transform: translate(350px, 75px) scale(.8) rotateZ(180deg);
-        z-index: 3;
-    }
-    80%{
-        transform: translate(-100px, 75px) scale(.8) rotateZ(180deg);
-        z-index: 3;
-    }
-    90%{
-        transform: translate(-250px, 245px) scale(.8);
-        z-index: 3;
-    }
-    91%{
-        transform: translate(-150px, 70px) scale(.8);
-        z-index: 3;
-    }
-    100% {
-        transform: translate(0) scale(1);
-        z-index: 3;
-    }
-}
 @media screen and (max-width: 1550px) {
     .hero--title {
         right: -12%;
@@ -215,7 +152,6 @@
         left: -15%;
     }
 }
-
 
 @media screen and (max-width: 800px) {
     .hero--sun {
@@ -255,5 +191,11 @@
         font-size: 3.5rem;
         right: -27%;
         letter-spacing: 3px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .hero--title {
+        font-size: 7.5rem;
     }
 }

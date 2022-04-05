@@ -1,5 +1,5 @@
 .contact__container {
-    height: 95vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     background-image: url("../../images/contact-bg.jpg");
@@ -10,6 +10,12 @@
 }
 .contact__container * {
     box-sizing: border-box;
+}
+
+.contact--content {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .contact--title {
@@ -42,7 +48,6 @@
     background-color: transparent;
     outline: none;
     border-bottom: 2px solid rgb(31, 114, 192);
-
 }
 
 input::placeholder {
@@ -76,6 +81,17 @@ input::placeholder {
     background-color: rgb(26, 84, 138);
 }
 
+.contact--phone {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+    width: 350px;
+    margin: 2rem 0 1rem 10rem;
+}
+
 @media screen and (max-width: 700px) {
     .contact--form {
         max-width: unset;
@@ -86,18 +102,9 @@ input::placeholder {
     .contact--title {
         font-size: 2rem;
     }
+
+    .contact--phone {
+        width: 100%;
+        margin-left: 0;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

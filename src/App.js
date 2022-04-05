@@ -25,15 +25,10 @@ function App() {
 
   return (
     <div className="App">
-        {/* <Navbar /> */}
-     
+        <Navbar />
         <Hero offsetY={offsetY}/>
-       
-        {/* <div className='ex'></div> */}
         <AboutMe/>
-
         <Projects/>
-        
         <Skills />
         <Contact />
         <Footer />

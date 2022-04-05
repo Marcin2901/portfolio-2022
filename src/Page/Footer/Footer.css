@@ -4,18 +4,32 @@ footer {
     align-items: center;
     gap: 4rem;
     color: #fff;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.99);
+    height: 100px;
+}
+
+footer h4 {
+    font-size: 1.3rem;
 }
 
 footer i {
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
 }
 
 footer a {
+    font-size: 1.3rem;
     text-decoration: none;
     color: unset;
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        height: 200px;
+        gap: 0;
+    }
 }
